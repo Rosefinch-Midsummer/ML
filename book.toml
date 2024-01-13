@@ -3,9 +3,14 @@ authors = ["RM"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Mdbook Template"
+title = "Machine Learning"
 [preprocessor.toc]
 command = "mdbook-toc"
 renderer = ["html"]
 [preprocessor.katex]
 after = ["links"]
+
+
+
+
+

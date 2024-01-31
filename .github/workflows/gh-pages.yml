@@ -25,6 +25,8 @@ jobs:
           toc-version: "latest"
           use-katex: true
           mdbook-katex-version: "latest"
+          use-mermaid: true
+          mermaid-version: "latest"
 
       - run: mdbook build
 

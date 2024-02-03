@@ -9,8 +9,16 @@ command = "mdbook-toc"
 renderer = ["html"]
 [preprocessor.katex]
 after = ["links"]
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
 
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+no-section-label = false
 
+[output.html.fold]
+enable = false
+level = 1
 
 
 
